@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="name" type="xs:string" />
+	<xs:element name="price" type="xs:double" />
+
+	<xs:element name="ticket">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" />
+				<xs:element ref="price" />
+			</xs:sequence>
+			<xs:attribute name="category" type="xs:string">
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="zoo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ticket" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

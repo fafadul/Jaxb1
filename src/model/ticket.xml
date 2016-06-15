@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zoo>
+	<ticket category="individuel">
+		<name>Tarif normal</name>
+		<price>8</price>
+	</ticket>
+	<ticket category="individuel">
+		<name>Tarif réduit</name>
+		<price>6</price>
+	</ticket>
+	<ticket category="individuel">
+		<name>Tarif enfant</name>
+		<price>5</price>
+	</ticket>
+	<ticket category="groupe">
+		<name>Tarif carnet 10</name>
+		<price>65</price>
+	</ticket>
+	<ticket category="groupe">
+		<name>Tarif groupe adultes</name>
+		<price>55</price>
+	</ticket>
+	<ticket category="groupe">
+		<name>Tarif groupe scolaire</name>
+		<price>80</price>
+	</ticket>
+	<ticket category="groupe">
+		<name>Tarif groupe étudiant</name>
+		<price>85</price>
+	</ticket>
+</zoo>
